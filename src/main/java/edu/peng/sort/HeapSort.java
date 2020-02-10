@@ -1,6 +1,6 @@
 package edu.peng.sort;
 
-import java.edu.peng.sort.Sort;
+import edu.peng.sort.Sort;
 import java.util.List;
 
 public class HeapSort implements Sort {

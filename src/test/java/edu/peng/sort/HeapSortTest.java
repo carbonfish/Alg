@@ -14,7 +14,8 @@ public class HeapSortTest{
     
     public void test(){
       List<Integer> shuffled = new ArrayList<>(simpleSorted);
-      Collections.shuffle(simpleSorted, new Random(System.currentTimeMillis()));
+      Collections.shuffle(shuffled, new Random(System.currentTimeMillis()));
+      new HeapSort().sort(shuffled);
 
   }
 }

@@ -1,4 +1,4 @@
-package java.edu.peng.sort;
+package edu.peng.sort;
 import java.util.List;
 
 public interface Sort{

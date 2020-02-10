@@ -6,9 +6,9 @@
  * User Manual available at https://docs.gradle.org/5.2.1/userguide/java_library_plugin.html
  */
 
-apply plugin: 'java'
-apply plugin: 'java-library'
-
+plugins {
+    id 'java-library'
+}
 repositories {
     // Use jcenter for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.

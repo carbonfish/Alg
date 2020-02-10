@@ -1,18 +1,5 @@
-# Object files
-*.o
-*.ko
+# Ignore Gradle project-specific cache directory
+.gradle
 
-# Libraries
-*.lib
-*.a
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
+# Ignore Gradle build output directory
+build
